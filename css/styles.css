@@ -38,7 +38,7 @@ nav .logo {
 
 nav .links {
   min-width: 600px;
-  display: flex;
+  display: flex; 
   justify-content: space-evenly;
 }
 
@@ -78,7 +78,7 @@ p{
 
 .m-links {
   position: absolute;
-  top: 50px;
+  top: 80px;
   right: 0;
   height: 200px;
   display: flex;
@@ -99,7 +99,7 @@ p{
   .hamburger {
       display: flex;
   }
-  .hide {
+  .links {
       display: none;
   }
 }
