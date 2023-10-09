@@ -8,8 +8,7 @@ function route() {
  
 function initListeners() {
     console.log("Test");
-<<<<<<< HEAD
-=======
+
     let navShow = false;
     $(window).on("resize", (e) => {
         if ($(window).width() > 768) {
@@ -29,7 +28,6 @@ $(".hamburger").on("click", (e) => {
         navShow = true;
     }
     })
->>>>>>> 602f2ecd79b4449b0ec894c9ca1aae59938933d7
 }
 
 function initUrlListeners() {
