@@ -12,9 +12,9 @@ function initListeners() {
     let navShow = false;
     $(window).on("resize", (e) => {
         if ($(window).width() > 768) {
-        $(".links").removeClass("hide");
+        $(".links").css("display", "flex");
         } else {
-        $(".links").addClass("hide");    
+        $(".links").css("display", "none");    
         }
     });
 $(".hamburger").on("click", (e) => {
